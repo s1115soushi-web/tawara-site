@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ステーキハウス タワラ 寒川店</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
+    body {
+        background-color: #faf7f2;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background: url('https://images.unsplash.com/photo-1544025162-d76694265947') center/cover;
+        height: 70vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header .overlay {
+        background: rgba(0,0,0,0.5);
+        padding: 40px;
+        border-radius: 12px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        background: #5a2d0c;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+    }
+
+    section {
+        max-width: 1000px;
+        margin: 60px auto;
+        padding: 0 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #5a2d0c;
+        border-bottom: 3px solid #d4a373;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+        color: #7f3f00;
+    }
+
+    footer {
+        background: #2d1b12;
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+        margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="overlay">
+        <h1>ステーキハウス タワラ 寒川店</h1>
+        <p>ガッツリ肉を楽しむ、地元で愛されるステーキハウス</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">店舗紹介</a>
+    <a href="#menu">メニュー</a>
+    <a href="#access">アクセス</a>
+</nav>
+
+<section id="about">
+    <h2>店舗紹介</h2>
+    <p>
+        寒川エリアで人気のステーキ専門店「タワラ」。
+        ボリューム満点のステーキやハンバーグをリーズナブルに楽しめます。
+        駐車場完備でファミリーからお一人様まで気軽にご利用いただけます。
+    </p>
+</section>
+
+<section id="menu">
+    <h2>おすすめメニュー</h2>
+    <div class="menu-grid">
+        <div class="card">
+            <h3>ジャンボステーキ</h3>
+            <p>肉好きに人気のボリューム満点ステーキ。</p>
+        </div>
+        <div class="card">
+            <h3>ハンバーグステーキ</h3>
+            <p>ジューシーで食べ応え抜群の定番メニュー。</p>
+        </div>
+        <div class="card">
+            <h3>セットメニュー</h3>
+            <p>ライス・スープ付きで大満足。</p>
+        </div>
+    </div>
+</section>
+
+<section id="access">
+    <h2>アクセス</h2>
+    <p><strong>住所：</strong>神奈川県高座郡寒川町宮山170-1</p>
+    <p><strong>TEL：</strong>0467-75-2870</p>
+    <p><strong>営業時間：</strong>11:30〜15:00 / 17:00〜22:00</p>
+    <p><strong>定休日：</strong>火曜日</p>
+    <p><strong>駐車場：</strong>あり</p>
+</section>
+
+<footer>
+    <p>© ステーキハウス タワラ 寒川店</p>
+</footer>
+
+</body>
+</html>
